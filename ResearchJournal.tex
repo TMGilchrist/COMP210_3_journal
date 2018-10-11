@@ -10,7 +10,7 @@
 \usepackage{url}
 \usepackage{graphicx}
 
-\title{Concerning Go To Considered Harmful}
+\title{HCI Usability Testing Methods for the Game Demiurge}
 \subtitle{COMP210 - Research Journal}
 \date{2018-10-10}
 \author{1604281}
@@ -47,18 +47,23 @@ For more technical data about the system, eye-tracking tests can be conducted to
 
 Eye-tracking data can also be analysed separately from other usability tests, simply to provide insight into what parts of an interface drew the users attention the most. This can be used to test the effectiveness of specific system elements, such as adverts. 
 
-As Demiurge is a fast-paced combat game, the ability to track player eye movements could help the developers understand how players gather information from the game, which could be used to inform UI design (to ensure it does not cover important areas of the screen) and combat elements, such as the range from which projectiles can be shot at the player. However, eye-tracking tests require specialised equipment, which is both expensive and needs training to use correctly. As the Demiurge team is a small group of students in a non-commercial environment, high-cost equipment would not be a practical method of testing despite its benefits.
+As Demiurge is a fast-paced combat game, the ability to track player eye movements could help the developers understand how players gather information from the game, which could be used to inform UI design (to ensure it does not cover important areas of the screen) and combat elements, such as the range from which projectiles can be shot at the player. It also avoids distracting the player, (which think-aloud testing may do), allowing them to focus on playing the game in a natural manner. \cite{learningGames} However, eye-tracking tests require specialised equipment, which is both expensive and needs training to use correctly. 
 
 
 \subsection{Surveys}
-Surveys are a versatile method of data collection that can be tailored to suit any part of the system being tested. Of the largest benefits of surveys is their potential for collecting large amounts of data. As they do not require an observer or specialised equipment, they can be used to assess large groups of users, both in a testing environment, but also as continual testing after release, as surveys can be completed remotely by users. \cite{userExperience} Larger data sets provide greater opportunities to find meaningful trends and patterns that can be used to identify issues that effect a broad spectrum of users.
+Surveys are a versatile method of data collection that can be tailored to suit any part of the system being tested. One of the largest benefits of surveys is their potential for collecting large amounts of data by reaching a larger number of users than other forms of tests can. \cite{conductingSurveys} As they do not require an observer or specialised equipment, they can be used to assess large groups of users, both in a testing environment, but also as continual testing after release, as surveys can be completed remotely by users. \cite{userExperience} This helps to facilitate ongoing usability testing even after development has been completed and the product has been released.
+
+Larger data sets provide greater opportunities to find meaningful trends and patterns that can be used to identify issues that effect a broad spectrum of users. However this can also be a problem, as without sufficiently large datasets, surveys can fall short, providing a fairly limited breadth of data. Surveys do also require careful thought and research to avoid questions that bias or otherwise influence the user. \cite{dataCollection}
 
 
 
 
 \section{Conclusion}
+Ideally, for a more complete review of Demiurge's combat system, several different tests would be employed so that the weaknesses of certain test types could be mitigated by the other tests. However, due to the small team size and lack of budget, it is far more appropriate to use only one test. While eye-tracking would be useful in analysing the intuitiveness of the combat system's visual feedback, and help to avoid interface elements that distract or confuse the user, the relatively high cost of the equipment, training and software makes this an impractical approach. \cite{eyeTrackingBanks} \cite{neilsonQuant}
 
+In comparison, a retrospective think-aloud test would not only be cheap, but also particularly useful for gaining insight into users' strategies and tactics in the game. A concurrent think-aloud may also be useful, but may be fragmented due to the fast-paced nature of the game demanding the users' attention. \cite{dualThinkAloud} Although a survey would be an even cheaper method required less training than a think-aloud, the limited scope of the survey may make it more difficult to understand the complex interactions between users and the game, as the users are not able to articulate subtle problems and solutions they may have encountered. 
 
+Overall, a retrospective think-aloud would be the most appropriate method of HCI usability testing for the Demiurge game, allowing the developers to understand the ways in which the users play the game, and what they focus on.
 
 \bibliography{references}
 \bibliographystyle{ieeetran}
